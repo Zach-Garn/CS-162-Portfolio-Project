@@ -1,12 +1,4 @@
-# portfolio-project
-
-**Remember that this project cannot be submitted late.**
-
 Write a class named **ChessVar** for playing an abstract board game that is a variant of chess. The following explanation of the rules assumes some familiarity with the rules of chess - specifically how the pieces move and capture, and what it means for a king to be "in check". If you have any questions about those rules, please don't hesitate to ask.
-
-Here is the starting position for the game:
-
-![starting position for game](starting_position.png "starting position for game")
 
 You will need to keep track of which player's turn it is. As in standard chess, white moves first. The first player to move their king onto row 8 is the winner, unless black finishes the next move after white does, in which case it's a tie. Pieces move and capture the same as in standard chess. As in standard chess, a player is not allowed to expose their own king to check (including moving a piece that was blocking a check such that it no longer does). **Unlike** standard chess, a player is not allowed to put the opponent's king in check (including moving a piece that was blocking a check such that it no longer does).
 
